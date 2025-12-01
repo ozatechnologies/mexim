@@ -1,7 +1,5 @@
 {
-  "buildCommand": "cd client && vite build && cd ..",
-  "outputDirectory": "dist/public",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
